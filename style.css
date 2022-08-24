@@ -1,0 +1,114 @@
+/* font */
+body {
+        font-family: 'Montserrat';
+        font-weight: 700;
+        
+        }
+
+
+/* stile contenitore principale */
+.contenitore 
+{
+    
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    position: relative;
+}
+
+ /* contenitore interno */
+
+ .sezione1
+{
+    margin: auto;
+    width: 50%;
+    border-radius: 10px;
+    padding: 5%;
+    background-color: rgba(0, 0, 0, 0.619);
+    
+}
+
+/* logo e titolo */
+
+.titolo
+{
+    font-family: montserrat;
+    font-weight: 700;
+    font-size: 15px;
+    text-align: center;
+    color: #00dd01;
+}
+#loo
+{
+    width: 20%;
+}
+
+#logo
+{
+   text-align: center;
+
+}
+
+/* "contenitore" verde */
+.pulsanti 
+{
+    font-size: 14px;;
+    background-color: #00DD01;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position: relative;
+    left: 0%;
+    right: 0%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Monopattino gino22 */
+.caricagino
+{
+    width: 230px;
+    height: 20px;
+    border-radius: 3px;
+    background-color: #F5B453;
+    margin-bottom: 20px;
+}
+
+/* Monopattino mike24 */
+.mike24
+{
+    width: 400px;
+    height: 20px;
+    border-radius: 3px;
+    background-color: #1DC31D;
+    margin-bottom: 20px;
+}
+
+/* Monopattino fede154 */
+.fede154
+{
+    width: 100px;
+    height: 20px;
+    border-radius: 3px;
+    background-color: #BE4141;
+}
+
+/* stile descrizione checkbox */
+.desc
+{
+    color: white;
+    font-size: 12px;
+    font-weight: 400;  
+}
+
+/* stile dei checkbutton */
+
+.check 
+{
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+    padding: 2px;
+}
